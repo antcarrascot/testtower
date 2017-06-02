@@ -1,0 +1,11 @@
+# same config file
+- hosts: ansible-tower
+  remote_user: root
+  tasks:
+          # create a new file on each host
+          - copy: 
+                  content: "Esto es una prueba" 
+                  dest: "/tmp/prueba.txt"
+                  owner: root
+                  group: root
+                  mode: 0644
