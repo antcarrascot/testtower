@@ -4,8 +4,8 @@
   tasks:
           # create a new file on each host
           - copy: 
-                  content: "Esto es una prueba" 
-                  dest: "/tmp/prueba.txt"
+                  content: "Esto es una prueba2" 
+                  dest: "/tmp/prueba2.txt"
                   owner: root
                   group: root
                   mode: 0644
